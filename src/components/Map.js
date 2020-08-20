@@ -23,10 +23,10 @@ const Map = () => {
         <MapView
             style={styles.map}
             initialRegion={{
-                latitude: 33.753746,
-                longitude: -84.386330,
-                latitudeDelta: .2,
-                longitudeDelta: .2,
+                latitude: 33.828130,
+                longitude: -84.489220,
+                latitudeDelta: .1,
+                longitudeDelta: .1,
             }}
         >
             <Polyline />
