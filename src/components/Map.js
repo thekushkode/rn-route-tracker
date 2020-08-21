@@ -19,12 +19,7 @@ const Map = () => {
                 latitudeDelta: .01,
                 longitudeDelta: .01,
             }}
-            //his region is currently deleted...
-            // region={{
-            //     ...currentLocation.coords,
-            //     latitudeDelta: .01,
-            //     longitudeDelta: .01,
-            // }}
+            
         >
             <Circle
                 center={currentLocation.coords}
